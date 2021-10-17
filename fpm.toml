@@ -1,0 +1,13 @@
+name = "fpm-pattern"
+version = "0.1.0"
+license = "MIT"
+author = "ludnic"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false
+
+[dependencies]
+M_CLI2     = { git = "https://github.com/urbanjost/M_CLI2.git" }
